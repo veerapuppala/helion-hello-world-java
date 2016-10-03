@@ -1,6 +1,10 @@
 ---
-# The only mandatory fields are name and path for simple Java web apps.
+# We have created a temporary app in the gallery
+# We have created a delivery pipeline
 applications:
+# We have reserved a name/route for your app
 - name: helion-hello-world-java
+  host: helion-hello-world-java
+  domain: kunal.domain.com.sitikantha.stacktest.io
   mem: 512M
   path: build/hello-world-java-1.0
